@@ -87,6 +87,7 @@ export function ContactForm({ className, ...props }: React.ComponentPropsWithout
                   required
                   value={formData.name}
                   onChange={handleChange}
+                  autoComplete="off"
                 />
               </div>
               <div className="grid gap-2">
@@ -99,6 +100,7 @@ export function ContactForm({ className, ...props }: React.ComponentPropsWithout
                   required
                   value={formData.email}
                   onChange={handleChange}
+                  autoComplete="off"
                 />
               </div>
               <div className="grid gap-2">
@@ -111,6 +113,7 @@ export function ContactForm({ className, ...props }: React.ComponentPropsWithout
                   value={formData.message}
                   onChange={handleChange}
                   rows={5}
+                  autoComplete="of"
                 />
               </div>
               <Button type="submit" className="w-full" disabled={loading}>
