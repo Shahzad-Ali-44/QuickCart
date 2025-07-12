@@ -27,8 +27,8 @@ export default function Footer({ onCartClick }: { onCartClick: () => void }) {
           <div>
             <h3 className="text-md font-semibold text-gray-900 dark:text-white mb-2">Support</h3>
             <ul className="space-y-1 text-sm">
-              <li><Link to="/contact us" className="hover:underline">Contact Us</Link></li>
-              <li><Link to="About" className="hover:underline">About Us</Link></li>
+              <li><Link to="/contact" className="hover:underline">Contact Us</Link></li>
+              <li><Link to="about" className="hover:underline">About Us</Link></li>
               <li><a href="" className="hover:underline">Privacy Policy</a></li>
               <li><a href="" className="hover:underline">Terms of Service</a></li>
             </ul>

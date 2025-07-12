@@ -54,7 +54,7 @@ export function NavMenu({ onCartClick }: { onCartClick: () => void }) {
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <Link
-                    to="/About"
+                    to="/about"
                     className="text-gray-900 font-bold dark:text-white hover:text-black"
                   >
                     About
@@ -67,7 +67,7 @@ export function NavMenu({ onCartClick }: { onCartClick: () => void }) {
 
 
                   <Link
-                    to="/contact us"
+                    to="/contact"
                     className="text-gray-900 font-bold dark:text-white hover:text-black"
                   >
                     Contact us
@@ -142,7 +142,7 @@ export function NavMenu({ onCartClick }: { onCartClick: () => void }) {
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <Link
-                    to="/About"
+                    to="/about"
                     className="text-gray-900 font-bold dark:text-white hover:text-black"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -155,7 +155,7 @@ export function NavMenu({ onCartClick }: { onCartClick: () => void }) {
                 <NavigationMenuLink asChild>
 
                   <Link
-                    to="/contact us"
+                    to="/contact"
                     className="text-gray-900 font-bold dark:text-white hover:text-black"
                     onClick={() => setIsMenuOpen(false)}
                   >
